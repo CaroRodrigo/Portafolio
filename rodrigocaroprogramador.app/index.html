@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Rodrigo Caro | PORTAFOLIO</title>
+    <meta name="title" content="Rodrigo Caro | PORTFOLIO" />
+    <meta
+      name="description"
+      content="Pagina web diseñada para que tu conozcas mis concimientos."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Portfolio, Rodrigo, Caro, My Portfolio, Mi portafolio, Desarrollador, portafolio,java, backend "
+    />
+    <meta name="author" content="rodrigo_caro_cba@hotmail.com" />
+    <meta
+      name="google-site-verification"
+      content="VFIoBukbxlXNN3cDw3_aaIGXvk0LbfAB1O9l7Ii6Wzg"
+    />
+    <link rel="“canonical”" href="index.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:title" content="Rodrigo Caro | PORTAFOLIO" />
+    <meta
+      property="og:description"
+      content="Pagina web diseñada para que tu conozcas mis concimientos."
+    />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="500" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="index.html" />
+    <meta property="twitter:title" content="Rodrigo Caro | PORTFOLIO" />
+    <meta
+      property="twitter:description"
+      content="Pagina web diseñada para que tu conozcas mis conoimientos."
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Ubuntu:wght@400;500;700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="../cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="../unpkg.com/aos%402.3.1/dist/aos.css" />
+    <script src="../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="dist/animsition/animation.min.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YJ2B4RXKLV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-YJ2B4RXKLV");
+    </script>
+  </head>
+  <body class="borrarr animsition">
+    <div id="circularMenu" class="circular-menu">
+      <a
+        class="floating-btn"
+        onclick="document.getElementById('circularMenu').classList.toggle('active');"
+      >
+        <i class="fa fa-plus"></i>
+      </a>
+      <menu class="items-wrapper">
+        <a
+          href="https://api.whatsapp.com/send?phone=543518094482&amp;text=Hola%20%C2%BFQue%20tal%20si%20hablamos?"
+          target="_blank"
+          class="menu-item"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="#contact" class="menu-item"><i class="fas fa-envelope"></i></a>
+        <a
+          href="https://www.linkedin.com/in/rodrigocaroprogramador/"
+          target="_blank"
+          class="menu-item"
+          ><i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCaGlI68vFfQBpB_wvYfv_mw/videos"
+          target="_blank"
+          class="menu-item"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </menu>
+    </div>
+    
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo" translate="no">
+          <a href="#">Portafo<span>lio.</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#about" class="menu-btn cambio">Acerca de</a></li>
+          <li><a href="#services" class="menu-btn cambio">Servicios</a></li>
+          <li><a href="#skills" class="menu-btn cambio">Habilidades</a></li>
+          <li><a href="#teams" class="menu-btn cambio">Proyectos</a></li>
+          <li><a href="#contact" class="menu-btn cambio">Contacto</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="section home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1" data-aos="fade-right">Hola, Mi nombre es</div>
+          <h1 class="text-2" data-aos="fade-left" translate="no">
+            Rodrigo Caro
+          </h1>
+          <div class="text-3" data-aos="fade-right">
+            Y yo soy Developer <span class="typing" translate="no"></span>
+          </div>
+          <a href="#contact">Contáctame</a>
+        </div>
+      </div>
+    </section>
+    <section class="section s1 about" id="about">
+      <div
+        id="div1"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-anchor-placement="top-bottom"
+        class="max-width glass"
+        style="padding-bottom: 15px"
+      >
+        <h2 class="title"><b>Sobre mi</b></h2>
+        <div class="about-content">
+          <div class="column left">
+            <img class="lazy" src="images/profile-1.webp" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              Soy Rodrigo:  <span class="typing-2" translate="no"></span>
+            </div>
+            <p>
+              <b>Desarrollador</b> web con varios años de experiencia, siempre
+              he sido un apasionado de la informática desde muy joven. He estado
+              trabajando con tecnologías de desarrollo hace 4 años, siempre
+              manteniendo al día mis conocimientos con respecto a los cambios
+              que se producen día a día. Así creando aplicaciones Web con buen manejo 
+              de base de datos remotas, buen manejo de seguridad y roles. 
+            </p>
+            <a
+              class="blog-slider__button"
+              href="dist/Rodrigo Caro_Programador_Java.pdf"
+              target="_blank"
+              >Ver mi CV</a
+            >
+            <a
+              class="blog-slider__button"
+              href="dist/RodrigoCaro-Certificados.pdf"
+              target="_blank"
+              >Ver mis certificados</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section s2 services" id="services">
+      <div
+        id="div2"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-anchor-placement="top-bottom"
+        class="max-width glass"
+        style="padding-bottom: 15px"
+      >
+        <h2 class="title">Mis Servicios</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <i class="fab fa-java"></i>
+              <div class="text">Back End</div>
+              <p>
+                Programación orientada a objetos, patrón modelo vista
+                controlador <br />
+                <br />
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-database"></i>
+              <div class="text">Base de datos</div>
+              <p>
+                Creación de sistemas seguros y bases de datos seguras, manejo de CRUD y Query.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Diseño web</div>
+              <p>
+                Diseño web rápido y hermoso con una experiencia de usuario agradable
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s3 skills" id="skills">
+      <div
+        id="div3"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-anchor-placement="top-bottom"
+        class="max-width glass"
+        style="padding-bottom: 15px"
+      >
+        <h2 class="title">Mis habilidades</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <h3 class="text">Mis habilidades</h3>
+            <p>
+            He programado varios proyectos personales. El Back End en lenguaje Java utilizando 
+            Spring Boot y Base de Datos son mi mayor fortaleza a la hora de crear aplicaciones web.
+            Estas son las tecnologías que utilizo: 
+            </p>
+          </div>
+          <div class="column grid">
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/java-original-wordmark.svg"
+                  class="imm"
+                  alt="JAVA"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/html5-original-wordmark.svg"
+                  class="imm"
+                  alt="HTML5"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/css3-original-wordmark.svg"
+                  class="imm"
+                  alt="CSS3"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/javascript_original_logo_icon_146455.svg"
+                  class="imm"
+                  alt="BOOTSTRAP"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/bootstrap_plain_wordmark_logo_icon_146620.svg"
+                  class="imm"
+                  alt="BOOTSTRAP"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/git-original-wordmark.svg"
+                  class="imm"
+                  alt="GIT"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/github-original-wordmark.svg"
+                  class="imm"
+                  alt="GITHUB"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/spring-boot.jpg"
+                  class="imm"
+                  alt="SPRINGBOOT"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/spring-security.jpg"
+                  class="imm"
+                  alt="SPRINGSECURITY"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/spring-data.jpg"
+                  class="imm"
+                  alt="SPRINGDATA"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/spring-mvc.jpg"
+                  class="imm"
+                  alt="SPRINGMVC"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/thymeleaf.jpg"
+                  class="imm"
+                  alt="THYMELEAF"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/mysql-original-wordmark.svg"
+                  class="imm"
+                  alt="MYSQL"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img
+                  src="images/skills/JPA-hibernate.jpg"
+                  class="imm"
+                  alt="JPA"
+                />
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <img src="images/skills/jdbc.jpg" class="imm" alt="JDBC" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s4 teams" id="teams">
+      <div
+        id="div4"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-anchor-placement="top-bottom"
+        class="max-width glass"
+        style="padding-bottom: 15px"
+      >
+        <h2 class="title">Mis Proyectos</h2>
+        <div class="carousel owl-carousel animsition">
+          <div class="card">
+            <div class="box">
+              <img class="lazy" src="images/projects/proyectoClub.jpg" alt="Proyecto Club" />
+              <div class="text">Proyecto <br> Club</div>
+              <a
+                class="animsition-link"
+                data-animsition-out-class="fade-out-right"
+                href="proyectos/responsive-social-platform-ui/index.html"
+              >
+                Ver</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img class="lazy" src="images/projects/fondo3.jpg" alt="" />
+              <div class="text">Proyecto <br> Persona</div>
+              <a
+                class="animsition-link"
+                data-animsition-out-class="fade-out-right"
+                href="https://loroverdehostal.netlify.app/"
+                >Ver</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img class="lazy" src="images/projects/edificios.jpg" alt="" />
+              <div class="text">Proyecto <br> City Soft</div>
+              <a
+                class="animsition-link"
+                data-animsition-out-class="fade-out-right"
+                href="https://loroverdehostal.netlify.app/"
+                >Ver</a
+              >
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="section s5 contact" id="contact">
+      <div
+        id="div5"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-anchor-placement="top-bottom"
+        class="max-width glass"
+        style="padding-bottom: 15px"
+      >
+        <h2 class="title">Contáctame</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Ponerse en contacto.</div>
+            <p>Puedes enviarme un mensaje o contactarme por los siguientes medios: </p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nombre</div>
+                  <div class="sub-title">Rodrigo Caro</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Ubicación</div>
+                  <div class="sub-title">Córdoba - Argentina</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">rodrigo_caro_cba@hotmail.com</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-phone-alt"></i>
+                <div class="info">
+                  <div class="head">Celular (Llamadas y WhatsApp)</div>
+                  <div class="sub-title">(351) 8094482</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <script>
+              window.onerror = new Function("return true");
+
+              function sendMail() {
+                var link =
+                  "rodrigo_caro_cba@hotmail.com" +
+                  "?&subject=" +
+                  escape(document.getElementById("subject").value) +
+                  "&body=" +
+                  "Me llamo " +
+                  escape(document.getElementById("nombre").value) +
+                  ", " +
+                  escape(document.getElementById("comment").value);
+
+                window.location.href = "mailto:" + link;
+              }
+            </script>
+            <div class="text">Contáctame</div>
+            <form id="form" action="https://formspree.io/f/xjvjdokl" method="POST">
+              <label class="field email">
+                 Tu Correo electrónico:
+                <input type="email" name="_replyto" />
+              </label>
+              <label class="field textarea" >
+                Tu mensaje:
+                <textarea cols="30" rows="10" autocomplete="off" placeholder="Mensaje... No olvides dejar tu nombre." id="comment"
+                required name="message"></textarea>
+              </label>
+              <button  style="display: inline-block;" class="boton-enviar" type="submit" >Enviar</button>
+            </form>
+          </div>
+          <a href="mailto:rodrigo_caro_cba@hotmail.com" id="trucazo"></a>
+        </div>
+      </div>
+    </section>
+  </body>
+    <footer>
+      <span
+        >Created By
+        <a
+          href="https://www.linkedin.com/in/rodrigocaroprogramador/"
+          target="_blank"
+          >Rodrigo Caro</a
+        >
+        | <span class="far fa-copyright"></span> 2021 All rights reserved.</span
+      >
+    </footer>
+
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script src="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="dist/animsition/animation.js"></script>
+    <script
+      type="text/javascript"
+      src="../cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(function () {
+        $(".lazy").lazy();
+      });
+    </script>
+    <script src="script.js"></script>
+    <script>
+      const $form = document.querySelector('#form');
+      $form.addEventListener('submit', handleSubmit);
+
+      async function handleSubmit(event){
+        event.preventDefault()
+        const form = new FormData(this)
+      const response = await fetch(this.action, {
+          method: this.method,
+          body: form,
+          headers: {
+            'accept': 'application/json'
+          }
+        })
+        if(response.ok){
+          this.reset();
+          alert("Gracias por contactarme, te escribire pronto :D");
+        }
+      }
+    </script>
+</html>
